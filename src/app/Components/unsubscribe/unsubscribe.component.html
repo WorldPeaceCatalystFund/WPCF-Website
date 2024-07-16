@@ -1,0 +1,60 @@
+
+<div class = "background">
+    <h1 class = "header background">Unsubcribe</h1><br><br>
+    
+    <p class = "background container"><br><br>
+    
+    
+        Please enter your email to unsubscribe from our mailing list.  You can always resubscribe in the future.  Thank you!
+        <br><br>
+        
+        </p>
+        
+            <div class="alert alert-success succ" role="alert" id="succ">
+                <p id="txt">
+                 <strong>Success!</strong> You have successfully unsubscribed!
+                </p>
+              </div>
+    
+            <div class="alert fail" role="alert" id="fail">
+                <p id="txt">
+                    <strong>Sorry!</strong> You have entered an invalid E-mail.
+                </p>
+            </div>
+           
+                <h1 class="header"></h1>
+          
+              <form #emailForm="ngForm"  (ngSubmit)="onSubmit(emailForm)">
+                <div class="group header">
+                    <input type="email" name="email_add" id="email_add"  placeholder = "Enter Your Email Here!" ngModel><span class="highlight"></span><span class="bar"></span>
+                      <label style="background-color:white">Email</label>
+                </div>
+                <input class="button buttonBlue" type="submit" value = "Send">
+             <!-- <button value="submit" type="button" class="button buttonBlue" value= "submit_button" id="sub" (click)="saveToFirebase(emailValue)">Subscribe
+              </button>  -->
+              </form>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    

@@ -1,0 +1,222 @@
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <div class="alert fail" role="alert" id="fail">
+    <p id="txt" style="background-color:  #ff9999;">
+        <strong style="background-color:  #ff9999;">Sorry!</strong> You have entered an invalid E-mail.
+    </p>
+</div>
+<div class="alert alert-success succ" role="alert" id="succ">
+  <p id="txt" style="background-color:  #dff0d8;;">
+   <strong style="background-color:  #dff0d8;" >Success!</strong> You have been signed up successfully!
+  </p>
+</div>
+  <!-- Grid container -->
+  <div class="container p-4 bg-dark text-center text-white">
+    <!-- Section: Social media -->
+    <section class="mb-4 bg-dark text-center text-white">
+      <!-- Facebook -->
+      <a  routerLink="/facebookpage" role="button"
+        > <!-- <i class="fa-brands fa-facebook"></i> -->
+        <img src="./assets/facebook-page.webp" class="icon">     </a>
+
+      <!-- Twitter -->
+      <a  routerLink="/facebookgroup" role="button"
+        > <!-- <i class="fa-brands fa-facebook"></i> -->
+        <img src="./assets/FBgroup2.png" class="icon">     </a>
+
+      <!-- Google -->
+      <a  routerLink="/instagram" role="button"
+        > <!-- <i class="fa-brands fa-facebook"></i> -->
+        <img src="./assets/instagram.png" class="icon">     </a>
+
+      
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form 
+    <section class=" bg-dark text-center text-white">
+      <form action="" class=" bg-dark text-center text-white" #emailForm="ngForm"  (ngSubmit)="onSubmit(emailForm)">
+        <!--Grid row
+        <div class="row d-flex justify-content-center bg-dark text-center text-white">
+          <!--Grid column
+          <div class="col-auto bg-dark text-center text-white">
+            <p class=" bg-dark text-center text-white">
+              <strong class=" bg-dark text-center text-white">Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column
+
+          <!--Grid column
+          <div class="col-md-5 col-12 bg-dark text-center text-white">
+            <!-- Email input 
+            <div class="form-outline  bg-dark text-center text-white ">
+              <input type="email" class="form-control bg-dark text-center text-white" 
+              name="email_add" id="email_add"  placeholder = "Email address" ngModel/>
+              <label class="form-label bg-dark text-center text-white" for="form5Example21"></label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column
+          <div class="col-auto bg-dark text-center text-white">
+            <!-- Submit button 
+            <button type="submit" class="btn btn-outline-light mb-4 bg-dark text-center text-white">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column
+        </div>
+        <!--Grid row
+      </form>
+    </section>
+  -->
+    <!-- Section: Form -->
+
+    <!-- Section: Text 
+    <section class="mb-4 bg-dark text-center text-white">
+      <p class="mb-4 bg-dark text-center text-white">
+        Sign up for our newletter to keep up to date with the most recent articles, news and status updates on the World Peace Catalyst Fund.
+      </p>
+    </section >
+    -->
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="bg-dark text-center text-white ">
+      <!--Grid row-->
+      <div class="row bg-dark text-center text-white">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 bg-dark text-center text-white">
+          <h5 class="text-uppercase bg-dark text-center text-white">Reports</h5>
+
+          <ul class="list-unstyled mb-0 bg-dark text-center text-white">
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/overview" class="bg-dark text-center text-white">Overview</a>
+            </li>
+                 <li class="bg-dark text-center text-white">
+              <a routerLink="/imagecomm" class="bg-dark text-center text-white">Image Mediated Communication</a>
+            </li>
+           
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/statistics" class="bg-dark text-center text-white">Statistical Argument for World Peace</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/barriers" class="bg-dark text-center text-white">What makes Icebreakers different?</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/anonymity" class="bg-dark text-center text-white">The Power of Anonymity</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/comparison" class="bg-dark text-center text-white">The Strongest Force For World Peace</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/appdesign" class="bg-dark text-center text-white">What is Icebreakers?</a>
+            </li>
+            
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/massquestioning" class="bg-dark text-center text-white">Mass Systemic Questioning</a>
+            </li>
+
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/convowell" class="bg-dark text-center text-white">Conversation Wells</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/caseRussiaUkraine" class="bg-dark text-center text-white">Case Study - Russia/Ukraine War</a>
+            </li>
+      
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/final" class="bg-dark text-center text-white">Final States</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/comparison" class="bg-dark text-center text-white">Comparison of World Peace Efforts</a>
+            </li>
+      
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 bg-dark text-center text-white">
+          <h5 class="text-uppercase bg-dark text-center text-white" >What You Can Do</h5>
+
+          <ul class="list-unstyled mb-0 bg-dark text-center text-white">
+            <li class="bg-dark text-center text-white">
+              <a href='https://play.google.com/store/apps/details?id=com.mudib.ghostwriter&hl=en_US&gl=US' class="bg-dark text-center text-white">Push For World Peace</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/volunteer" class="bg-dark text-center text-white">Volunteer</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/donate" class="bg-dark text-center text-white">Donate</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 bg-dark text-center text-white">
+          <h5 class="text-uppercase bg-dark text-center text-white">Our Organization</h5>
+
+          <ul class="list-unstyled  bg-dark text-center text-white">
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/aboutus" class="text-white bg-dark text-center text-white">About Us</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/purpose" class="text-white bg-dark text-center text-white">Purpose/Mission Statement</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/mtf" class="text-white bg-dark text-center text-white">Meet the Founder</a>
+            </li>
+            
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/impact" class="text-white bg-dark text-center text-white">Our Impact</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 bg-dark text-center text-white">
+          <h5 class="text-uppercase bg-dark text-center text-white">Programs</h5>
+
+          <ul class="list-unstyled mb-0 bg-dark text-center text-white">
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/program-cccp" class="text-white bg-dark text-center text-white">Cross Cultural Conversations Program</a>
+            </li>
+            <li class="bg-dark text-center text-white">
+              <a routerLink="/program-afwp" class="text-white bg-dark text-center text-white">Art For World Peace</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <div class="text-center p-3 bg-dark text-center text-white container" style="background-color: rgba(0, 0, 0, 0.2);">
+    <p class = "bg-dark"> 
+    <a class="text-white bg-dark text-center text-white" routerLink="/privacy">Privacy</a>  
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="text-white bg-dark text-center text-white" routerLink="/terms">Terms & Conditions</a>  
+    &nbsp;&nbsp;&nbsp;&nbsp;
+
+    <a class="text-white bg-dark text-center text-white" routerLink="/disclaimer">Disclaimer</a>
+  </p>
+    
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3 bg-dark text-center text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white bg-dark text-center text-white" href="https://www.worldpeacecatalystfund.org/">www.worldpeacecatalystfund.org</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->

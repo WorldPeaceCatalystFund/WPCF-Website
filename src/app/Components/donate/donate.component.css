@@ -1,0 +1,167 @@
+.donateImage{
+
+
+
+        max-width: 1400px;
+        max-height:300px;
+        align-items: center;
+        left:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    
+    
+}
+
+.header1{
+        text-align: center;
+        font-size: 40px;
+        color: black;
+    }
+    .header2{
+        text-align: center;
+        font-size: 25px;
+        color: black;
+    }
+    .donateDiv1{
+      width: 50%;
+        padding: 10px;
+        height: 400px;
+
+    }
+    .columnSmall {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 400px; /* Should be removed. Only for demonstration */
+      }
+      .column2Small {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        height: 400px; /* Should be removed. Only for demonstration */
+      }
+      .columnMedium {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        background-color:white;
+       
+        /* Should be removed. Only for demonstration  height: 600px; */
+      }
+      .column2Medium {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        background-color:white;
+       
+         /* Should be removed. Only for demonstration  height: 600px;*/
+      }
+      .columnLarge {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        background-color:white;
+        height: 800px; /* Should be removed. Only for demonstration  height: 800px; */
+      }
+      .column2Large {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        background-color:white;
+        height: 800px; /* Should be removed. Only for demonstration     height: 800px; */
+      }
+      .columnXLarge {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 1000px; /* Should be removed. Only for demonstration */
+      }
+      .column2XLarge {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        height: 1000px; /* Should be removed. Only for demonstration */
+      }
+      .columnXXLarge {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 1200px; /* Should be removed. Only for demonstration */
+      }
+      .column2XXLarge {
+        float: right;
+        width: 50%;
+        padding: 10px;
+        height: 1200px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .imgdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+  
+  /*
+   vertical-align: middle ;
+  
+  position: relative;
+ 
+   display: table-cell;
+  */
+      }
+      .funnelimage{
+        max-height:400px;
+        max-width:350px;
+        
+        
+
+        margin-left: auto;
+        margin-right:auto;     
+        top: 50%;
+        
+        /*
+        display:block;
+       position: absolute;
+        display:block;
+        display: flex;
+          margin-top:auto;  
+        margin-bottom:auto;
+        justify-content: center;
+        top: 0; bottom: 0; left: 0; right: 0;
+transform: translate(-50%, -50%);
+        vertical-align:middle;
+        
+        text-align: center;
+        */
+
+          }
+          .topimage{
+            max-height:500px;
+            max-width:400px;
+            display:block;
+            margin-left: auto;
+            margin-right:auto;      
+            margin-top:auto;  
+            margin-bottom:auto;
+              }
+          .download{
+            max-height:300px;
+            max-width:300px;
+            
+            
+              }
+              .funnelimage2{
+                max-height:200px;
+                max-width:200px;
+                
+            
+                  }
+                  *{background-color:white;}

@@ -1,0 +1,19 @@
+.header1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.header2{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.intro{
+    text-align: left;
+    font-size: 15px;
+    color: black;
+}
+.salesImage{
+    max-height:500px;
+    max-width:500px;
+}

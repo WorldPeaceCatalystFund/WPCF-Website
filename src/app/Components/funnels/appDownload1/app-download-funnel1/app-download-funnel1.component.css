@@ -1,0 +1,40 @@
+.header1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.header2{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .funnelimage{
+    max-height:400px;
+    max-width:350px;
+    
+      }
+      .download{
+        max-height:300px;
+        max-width:300px;
+        
+        
+          }
+          .funnelimage2{
+            max-height:200px;
+            max-width:200px;
+            
+        
+              }

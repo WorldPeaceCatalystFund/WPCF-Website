@@ -1,0 +1,11 @@
+.text{
+    text-align: center;
+    background: #4bb1cf;
+    font-size: 25px;
+}
+.alert{
+    background: #EDE04D;
+}
+.link{
+    color:red;
+}
