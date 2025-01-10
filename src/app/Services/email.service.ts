@@ -172,7 +172,7 @@ storeEmail(hash: string,email: string,interest: string){
  
   const httpHeaders = new HttpHeaders();
   httpHeaders.append('content-type','application/json');
-  httpHeaders.append('Authentication','basic password1234');
+ 
 
   const ep = "https://ghost-writer-alpha.firebaseio.com/emails.json";
   const ep2 = "/api/subscribeFB";
